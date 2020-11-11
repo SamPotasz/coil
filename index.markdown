@@ -11,5 +11,3 @@ hero:
   content: Solve problems for American workers, businesses, investors, and communities by catalyzing cross-sector collaboration
 
 ---
-
-## Section heading

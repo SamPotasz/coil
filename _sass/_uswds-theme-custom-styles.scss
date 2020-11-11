@@ -20,13 +20,25 @@ i.e.
 ----------------------------------------
 */
 
+@import 'uswds/src/uswds';
+
 // CUSTOM SASS
 .usa-hero {
   background-image: none;
-  background: #0059FC;
+  background: color($theme-color-primary-vivid);
 }
 
+.project-titles:before {
+  content: '';
+  width: 20%;
+  height: 3px;
+  background: color($theme-color-primary-vivid);
+  position: absolute;
+}
 
+.project-titles-odd:before {
+  background: color($theme-color-secondary-vivid);
+}
 
 
 // uswds shims

@@ -1,32 +1,26 @@
 ---
 layout: project
+date: 11-11-2020
 title: Modernizing Talent Discovery for High Growth Entrepreneurship
+department: U.S. Economic Development Administration
 permalink: /projects/link-to-project/
-description: Project description.
-large_image: /path/to/image.ext
-small_image: /path/to/image.ext
-image_alt: The image alt text
+description: Create digital tools or open sourced data to transform talent discovery, matching, and retention in mid-size cities across the country, to help them achieve innovation and regional economic growth.
+champions: 
+  - text: Dennis Alvord
+    title: EDA Deputy Assistant Secretary for Regional Affairs
+advisors:
+  - text: Emily Miller
+  - text: Craig Buerstatte
+teams:
+  - text: Emsi
+    href: http://www.proximatetech.com/consulting.html
+  - text: Burning Glass Technologies
+  - text: Redfin
+advocates:
+  - text: FlexJobs
+    href: https://globethree.com/
+  - text: Greater MSP
+  - text: Harvard Business School
+  - text: National League of Cities
+  - text: Startup Champions Network
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-Jekyll requires blog post files to be named according to the following format:
-
-`YEAR-MONTH-DAY-title.MARKUP`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/

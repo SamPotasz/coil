@@ -1,35 +1,36 @@
 <div>
   {% for item in site.projects %}
-    <div>
-        <div class="project-heading">
-          <h2>{{ item.title }}</h2>
-          <p class="text-base-light text-thin">{{ item.department }}</p>
-          <p>{{ item.description }}</p>
+    <div class="project-container padding-y-9 border-top-1px">
+        <div class="project-titles {% cycle 'project-titles-odd', '' %} grid-container">
+          <div class="grid-row">
+            <div class="tablet:grid-col-6">
+              <h2>{{ item.title }}</h2>
+            </div>
+          </div>
+          <div class="grid-row">
+            <div class="tablet:grid-col-4">
+              <span class="text-base-light text-thin font-body-3xs">{{ item.department }}</span>
+            </div>
+          </div>
+          <div class="grid-row">
+            <div class="tablet:grid-col-6 margin-top-2 margin-bottom-4">
+              <span>{{ item.description }}</span>
+            </div>
+          </div>
         </div>
 
         <div class="grid-container">
-          <div class="grid-row">
-            <div class="tablet:grid-col-3">
-              <p class="text-base-light text-thin">Executive Champions</p>
-              {% for champion in item.champions %}
-                <p>{{ champion }}</p>
-              {% endfor %}
-            </div>
+          {% include project-details.html 
+            sponsorTitle="Executive Champions" 
+            sponsors=item.champions
+            teamsTitle="Tech Teams" 
+            teams=item.teams %}
 
-            <div class="tablet:grid-col-9">
-              <p class="text-base-light text-thin">Tech Teams</p>
-              <div class="grid-row flex-wrap">
-              {% for team in item.teams %}
-                <div class="grid-col-4">
-                  {{ team.text }}
-                </div>
-              {% endfor %}
-              </div>
-            </div>
-          </div> <!-- end champions and teams -->
-          <div class="grid-row">
-
-          </div> <!-- end advisors and advocates -->
+          {% include project-details.html 
+            sponsorTitle="Product Advisors" 
+            sponsors=item.advisors
+            teamsTitle="User Advocates" 
+            teams=item.advocates %}
         </div>
 
       </div>
