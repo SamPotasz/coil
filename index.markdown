@@ -7,7 +7,7 @@ layout: home
 hero:
   callout:
     alt: July - Sept 2019
-    text: Workfoce Sprint
+    text: Workforce Sprint
   # button:
   #   href: /callout/
   #   text: Call to action

@@ -1,0 +1,30 @@
+primary:
+  - text: Documentation
+    href: https://github.com/18F/uswds-jekyll
+    external: true
+  - text: Navigation Section
+    links: 
+      - text: First
+      - text: Second
+      - text: Third
+  - text: Reference Section
+    links: 
+      - text: First
+      - text: Second
+      - text: Third
+  - text: "External Link"
+    href: https://18f.gsa.gov
+    external: true
+
+secondary:
+  - text: Secondary
+  - text: Theme
+
+footer: 
+  - text: Documentation
+    href: https://github.com/18F/uswds-jekyll
+    external: true
+  - text: Demo Link
+  - text: External Link
+    href: https://18f.gsa.gov
+    external: true

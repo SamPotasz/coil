@@ -3,7 +3,7 @@
 # Configuration for type of footer.
 # Footer types can be 'slim', 'default', or 'big'.
 # https://designsystem.digital.gov/components/footers/
-type: slim
+type: default
 
 # Configuration for "Return to top" link.
 # Customize with 'text' and 'href' properties.
@@ -47,15 +47,15 @@ contact:
   # Comment out links you don't want to use (RSS is an example)
   social_links:
     - text: Facebook
-      href: https://facebook.com
+      href: https://facebook.com/18F-881459365239241/
       external: true
       type: facebook
     - text: Twitter
-      href: https://twitter.com
+      href: https://twitter.com/18F
       external: true
       type: twitter
     - text: YouTube
-      href: https://youtube.com
+      href: https://www.youtube.com/playlist?list=PLvdwyPgXnxxVQ-ate9dI14ciyYp_o9T8b
       external: true
       type: youtube
   # - text: RSS Feed
