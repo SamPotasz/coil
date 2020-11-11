@@ -1,0 +1,37 @@
+<div>
+  {% for item in site.projects %}
+    <div>
+        <div class="project-heading">
+          <h2>{{ item.title }}</h2>
+          <p class="text-base-light text-thin">{{ item.department }}</p>
+          <p>{{ item.description }}</p>
+        </div>
+
+        <div class="grid-container">
+          <div class="grid-row">
+            <div class="tablet:grid-col-3">
+              <p class="text-base-light text-thin">Executive Champions</p>
+              {% for champion in item.champions %}
+                <p>{{ champion }}</p>
+              {% endfor %}
+            </div>
+
+            <div class="tablet:grid-col-9">
+              <p class="text-base-light text-thin">Tech Teams</p>
+              <div class="grid-row flex-wrap">
+              {% for team in item.teams %}
+                <div class="grid-col-4">
+                  {{ team.text }}
+                </div>
+              {% endfor %}
+              </div>
+            </div>
+          </div> <!-- end champions and teams -->
+          <div class="grid-row">
+
+          </div> <!-- end advisors and advocates -->
+        </div>
+
+      </div>
+  {% endfor %}
+</div>
