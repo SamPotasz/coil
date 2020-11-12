@@ -42,6 +42,9 @@ $gold: #FFC402;
   background: color($theme-color-secondary-vivid);
 }
 
+.sprint-circle {
+  cursor: pointer;
+}
 .sprint-picker {
   background-color: white;
   border: 3px solid $gold;
@@ -56,6 +59,7 @@ $gold: #FFC402;
   box-shadow: 0 0 0 2px $gold;
   height: 27px;
   width: 27px;
+  cursor: default;
 }
 
 
