@@ -65,6 +65,7 @@ $bright-blue: #0059FC;
 
 
 .sprint-picker-container {
+  flex-wrap: nowrap;
   align-items: center;
 }
 .sprint-circle {
@@ -98,6 +99,7 @@ $bright-blue: #0059FC;
 }
 .nav-details {
   text-align: center;
+  white-space: nowrap;
 }
 
 
