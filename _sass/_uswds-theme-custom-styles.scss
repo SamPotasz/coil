@@ -20,14 +20,32 @@ i.e.
 ----------------------------------------
 */
 
+/******************************* 
+ * custom project SASS
+ *******************************/
 @import 'uswds/src/uswds';
 
-// CUSTOM SASS
 $gold: #FFC402;
+$bright-blue: #0059FC;
 
 .usa-hero {
   background-image: none;
-  background: color($theme-color-primary-vivid);
+  background: $bright-blue;
+
+  .usa-hero__callout {
+    background: $bright-blue;
+  }
+
+  .usa-hero__heading {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: white;
+  }
+  .usa-hero__heading--alt {
+    font-size: 1rem;
+    text-transform: none;
+    font-family: 'Roboto Mono';
+  }
 }
 
 .project-titles:before {
@@ -63,7 +81,12 @@ $gold: #FFC402;
 }
 
 
-// uswds shims
+
+
+/**************** 
+ * uswds shims
+ ****************/
+
 .usa-footer__logo-img {
   width: 100%;
 }
