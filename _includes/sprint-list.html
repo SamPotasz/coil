@@ -10,7 +10,7 @@
         ></div>
         
         <div id="nav-details-{{ item.week }}" class="nav-details">
-          <h3>Week {{ item.week }}</h3>
+          <h3 class="margin-bottom-0">Week {{ item.week }}</h3>
           <span class="font-mono-3xs">{{ item.dates }}</span>
         </div>
     
@@ -18,7 +18,7 @@
     {% endfor %}
   </div>
 
-  <div class="sprint-details-container grid-container">
+  <div class="sprint-details-container grid-container margin-y-6">
     
     {% for item in site.data.sprints %}
       <div class="grid-row">

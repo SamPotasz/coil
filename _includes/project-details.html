@@ -2,7 +2,7 @@
   <div class="tablet:grid-col-3">
     <p class="text-base-light text-thin">{{ include.sponsorTitle }}</p>
     {% for sponsor in include.sponsors %}
-      <p class="margin-bottom-neg-2">{{ sponsor.text }}</p>
+      <p class="margin-bottom-neg-1">{{ sponsor.text }}</p>
       {% if sponsor.title %}
         <p class="text-italic">{{ sponsor.title }}</p>
       {% endif %}
@@ -12,11 +12,11 @@
   <div class="tablet:grid-col-9">
     <p class="text-base-light text-thin">{{ include.teamsTitle }}</p>
     <div class="grid-row flex-wrap">
-    {% for team in include.teams %}
-      <div class="grid-col-3 border-top margin-left-1 margin-bottom-2">
-        {{ team.text }}
-      </div>
-    {% endfor %}
+      {% for team in include.teams %}
+        <div class="grid-col-3 border-top margin-right-205 margin-bottom-2">
+          <span class="text-bold font-body-3xs">{{ team.text }}</span>
+        </div>
+      {% endfor %}
     </div>
   </div>
 </div>

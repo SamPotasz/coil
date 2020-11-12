@@ -64,7 +64,9 @@ $bright-blue: #0059FC;
 }
 
 
-
+.sprint-picker-container {
+  align-items: center;
+}
 .sprint-circle {
   cursor: pointer;
 }
@@ -72,8 +74,9 @@ $bright-blue: #0059FC;
   background-color: white;
   border: 3px solid $gold;
   border-radius: 50%;
-  height: 20px;
-  width: 20px;
+  height: 15px;
+  width: 15px;
+  margin-top: 5px;
 
   transition-property: width height background-color border-radius;
   transition-duration: 0.2s;
@@ -93,7 +96,9 @@ $bright-blue: #0059FC;
 
   cursor: default;
 }
-
+.nav-details {
+  text-align: center;
+}
 
 
 
@@ -102,7 +107,7 @@ $bright-blue: #0059FC;
  ****************/
 
 .usa-footer__logo-img {
-  width: 100%;
+  width: 3rem;
 }
 
 @include at-media("mobile-lg") {
