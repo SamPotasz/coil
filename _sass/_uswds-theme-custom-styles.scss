@@ -23,6 +23,8 @@ i.e.
 @import 'uswds/src/uswds';
 
 // CUSTOM SASS
+$gold: #FFC402;
+
 .usa-hero {
   background-image: none;
   background: color($theme-color-primary-vivid);
@@ -38,6 +40,22 @@ i.e.
 
 .project-titles-odd:before {
   background: color($theme-color-secondary-vivid);
+}
+
+.sprint-picker {
+  background-color: white;
+  border: 3px solid $gold;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+.sprint-picker-selected {
+  background-color: $gold;
+  border: 3px solid white;
+  border-radius: 18px;
+  box-shadow: 0 0 0 2px $gold;
+  height: 27px;
+  width: 27px;
 }
 
 

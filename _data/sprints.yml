@@ -1,0 +1,84 @@
+- week: 0
+  dates: July 1 - July 5
+  events:
+    - title: Join our Slack Community
+      details: New to Slack? Check out this page to get some tips on getting started.
+    - title: Optional User Engagement Workshop in Chicago (7/2)
+      details: Join an incredible group of TOP participants in an interactive workshop to get a deeper understanding of how the program will unfold, and a preview of the next 12 weeks.
+
+
+- week: 1
+  dates: July 8 - July 12
+  events: 
+    - title: Problem Statement Orientation
+      details: Dive into the weeds about your problem statement, and get more information about the goals of each challenge.
+    - title: User Research
+      details: In parallel to learning about the problem statements, learn more about the communities that are most affected by them and what their experiences, needs and challenges are like
+
+- week: 2
+  dates: July 15 - July 19
+  events: 
+  - title: User Research Milestone (7/18)
+    details: Teams join the virtual milestone to share findings from user research that will inform the design of their product, and connect with user advocates to get feedback
+
+- week: 3
+  dates: July 22 - July 26
+  events: 
+    - title: User Research + Data Exploration
+      details: Teams continue to conduct user research and begin to explore available data sets
+
+- week: 4
+  dates: July 29 - August 2
+  events: 
+    - title: Continue Data Exploration
+      details: Teams continue to explore available data sets
+    - title: Data Dive Milestone (8/1)
+      details: Teams join the virtual milestone to hear from data stewards and ask questions on available data sets
+
+- week: 5
+  dates: August 5 - August 9
+  events: 
+    - title: Data Exploration & Product Development
+      details: Teams explore available data sets, connect with data stewards, and begin scoping/developing products 
+
+- week: 6
+  dates: August 12 - August 16
+  events: 
+    - title: Alpha Demo Milestone (8/15)
+      details: Participants come together for a virtual demo of the tools in progress. Teams share concepts and wireframes, and get feedback from user advocates, data stewards, and product experts.
+
+
+- week: 7
+  dates: August 19 - August 23
+  events: 
+    - title: Product Development & User Testing
+      details: Teams continue building products and collect user feedback
+
+
+- week: 8
+  dates: August 26 - August 30
+  events: 
+    - title: Beta Demos Milestone (8/29)
+      details: Teams come together to showcase and share feedback on more mature versions of their products. Typically, tools have reached at least wireframes and have some functioning features.
+
+
+- week: 9
+  dates: September 2 - September 6
+  events:  
+    - title: Product Development & User Testing
+      details: Teams continue building products and conduct user testing
+    - title: Labor Day - Sept 2nd
+
+
+- week: 10
+  dates: September 16 - September 20
+  events:  
+    - title: Product Development
+      details: Teams continue building prototypes/products
+
+
+- week: 11
+  dates: September 23 - September 27
+  events: 
+    - title: Present final MVPs
+      details: Teams share MVP with TOP team prior to collective rollout

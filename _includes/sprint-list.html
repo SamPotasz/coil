@@ -1,0 +1,21 @@
+<div class="sprint-list">
+
+  <div class="grid-row">
+    {% for item in site.data.sprints %}
+      <div class="grid-col-1 sprint-picker-container grid-row flex-column">
+        <div id="sprint-picker-{{ item.week }}" 
+          class="sprint-picker{% if forloop.index == 4 %}-selected{% endif %}"
+        ></div>
+        
+        <div id="nav-details-{{ item.week }}" class="nav-details">
+          <h3>Week {{ item.week }}</h3>
+          <span class="font-mono-3xs">{{ item.dates }}</span>
+        </div>
+    
+      </div>
+    {% endfor %}
+  </div>
+
+  
+
+</div>
