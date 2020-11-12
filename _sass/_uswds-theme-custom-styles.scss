@@ -34,6 +34,7 @@ $bright-blue: #0059FC;
 
   .usa-hero__callout {
     background: $bright-blue;
+    max-width: 25rem;
   }
 
   .usa-hero__heading {
@@ -42,11 +43,13 @@ $bright-blue: #0059FC;
     color: white;
   }
   .usa-hero__heading--alt {
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-transform: none;
     font-family: 'Roboto Mono';
   }
 }
+
+
 
 .project-titles:before {
   content: '';
@@ -60,6 +63,8 @@ $bright-blue: #0059FC;
   background: color($theme-color-secondary-vivid);
 }
 
+
+
 .sprint-circle {
   cursor: pointer;
 }
@@ -69,6 +74,10 @@ $bright-blue: #0059FC;
   border-radius: 50%;
   height: 20px;
   width: 20px;
+
+  transition-property: width height background-color border-radius;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
 }
 .sprint-picker-selected {
   background-color: $gold;
@@ -77,6 +86,11 @@ $bright-blue: #0059FC;
   box-shadow: 0 0 0 2px $gold;
   height: 27px;
   width: 27px;
+
+  transition-property: width height background-color border-radius;
+  transition-duration: 0.15s;
+  transition-timing-function: 0.2s;
+
   cursor: default;
 }
 

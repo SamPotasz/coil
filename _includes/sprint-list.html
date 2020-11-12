@@ -5,7 +5,7 @@
     {% for item in site.data.sprints %}
       <div class="grid-col-1 sprint-picker-container grid-row flex-column">
         <div id="sprint-picker-{{ item.week }}" 
-          class="sprint-circle sprint-picker{% if forloop.index == 4 %}-selected{% endif %}"
+          class="sprint-circle sprint-picker{% if forloop.index == 5 %}-selected{% endif %}"
           onclick="showSprint( '{{ item.week }}' )"
         ></div>
         
